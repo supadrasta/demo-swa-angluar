@@ -1,15 +1,3 @@
 {
-  "routes": [
-     {
-     "route": "/index.html",
-     "rewrite": "/down.html",
-     "allowedRoles": ["anonymous"]
-     "statusCode": 307
-    },
-   
-     {
-     "route": "/products",
-     "allowedRoles": ["anonymous"]     
-    }
-    ]
+ 
 }
