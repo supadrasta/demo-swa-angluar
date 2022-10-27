@@ -6,12 +6,10 @@
      "allowedRoles": ["anonymous"]
      "statusCode": 307
     },
-    "routes": [
+   
      {
      "route": "/products",
-     "allowedRoles": ["anonymous"]
-     
-    },
-    
+     "allowedRoles": ["anonymous"]     
+    }
     ]
 }
