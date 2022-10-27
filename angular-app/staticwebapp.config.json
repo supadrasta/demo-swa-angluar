@@ -1,6 +1,16 @@
+
 {
-  "navigationFallback": {
-    "rewrite": "/index.html",
-    "exclude": ["*.{css,scss,js,png,gif,ico,jpg,svg}"]
-  }
+  "routes": [
+     {
+     "route": "/index.html",
+     "rewrite": "/down.html",
+     "allowedRoles": ["anonymous"]
+     "statusCode": 307
+    },
+    {
+     "route": "/test/",
+     "rewrite": "/down.html",
+    }
+    
+    ]
 }
