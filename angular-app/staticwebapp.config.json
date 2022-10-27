@@ -1,16 +1,6 @@
-
-{
-  "routes": [
-     {
-     "route": "/index.html",
-     "rewrite": "/down.html",
-     "allowedRoles": ["anonymous"]
-     "statusCode": 307
-    },
+"routes": [
     {
-     "route": "/test/",
-     "rewrite": "/down.html",
+      "route": "/*",
+      "allowedRoles": ["anonymous"]
     }
-    
-    ]
-}
+  ],
